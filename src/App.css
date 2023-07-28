@@ -1,5 +1,6 @@
-.app {
-    text-align: center;
-    display:block;
-    justify-content: center;
+.arkaplan_resim {
+    width: 100%;
+    background-image: url('ArkaplanResim.jpg');
+    background-size: cover;
+    position: absolute;
 }
