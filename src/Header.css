@@ -1,86 +1,99 @@
 .arama {
-    width: 450px;
-    height: 35px;
-    border-radius: 1rem;
-    margin-top: 20px;
-    text-align: center;
+  width: 450px;
+  height: 35px;
+  border-radius: 1rem;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .arama_button {
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-    border-radius: 1rem;
-    background-color: rgb(235, 232, 232);
-    cursor: pointer;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 1rem;
+  background-color: rgb(235, 232, 232);
+  cursor: pointer;
 }
- 
+
 .center {
-    text-align: center;
+  text-align: center;
 }
- 
+
 .yazi {
-    margin-top: 10px;
-    font: 0.5em;
-    color: rgb(29, 28, 28);
-    align-items: center;
-    display: flex; /* Flex olarak tanımlayarak metni ve düğmeleri yatayda hizalarız. */
-    justify-content: space-between; /* Metni ve düğmeleri sağa ve sola hizalarız. */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+  margin-top: 10px;
+  font: 0.5em;
+  color: rgb(29, 28, 28);
+  align-items: center;
+  display: flex; /* Flex olarak tanımlayarak metni ve düğmeleri yatayda hizalarız. */
+  justify-content: space-between; /* Metni ve düğmeleri sağa ve sola hizalarız. */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 .sil {
-    border-radius: 1rem;
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Düğme içeriğini dikeyde ve yatayda ortalarız. */
-    cursor: pointer;
+  border-radius: 1rem;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Düğme içeriğini dikeyde ve yatayda ortalarız. */
+  cursor: pointer;
 }
 
 .resim {
-    width: 20px;
-    height: 20px;
-    border-radius: 1rem;
-    background-color: rgb(189, 233, 218);
+  width: 20px;
+  height: 20px;
+  border-radius: 1rem;
+  background-color: white;
 }
 
 .guncelle {
-    border-radius: 1rem;
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    background-color: rgb(230, 227, 227);
-    display: flex;
-    border-color: rgb(230, 227, 227);
-    align-items: center;
-    justify-content: center; /* Düğme içeriğini dikeyde ve yatayda ortalarız. */
-    cursor: pointer;
+  border-radius: 1rem;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Düğme içeriğini dikeyde ve yatayda ortalarız. */
+  cursor: pointer;
+}
+
+.tamamlandi {
+  border-radius: 1rem;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Düğme içeriğini dikeyde ve yatayda ortalarız. */
+  cursor: pointer;
+}
+
+.completed-task {
+  text-decoration: line-through;
 }
 
 .satir {
-    width: 300px;
-    height: 30px;
-    background-color: rgb(189, 233, 218);
-    border-radius: 1.2rem;
-    margin: 10px auto; /* Metni ve düğmeleri yatayda ortalarız. */
-    padding: 5px; /* Boşluk ekleriz. */
-    margin-left: 400px;
+  width: 300px;
+  height: 30px;
+  background-color: rgb(189, 233, 218);
+  border-radius: 1.2rem;
+  margin: 10px auto; /* Metni ve düğmeleri yatayda ortalarız. */
+  padding: 5px; /* Boşluk ekleriz. */
+  margin-left: 400px;
 }
 
 .buttons {
-    display: flex;
-    gap: 5px; /* Düğmeler arasına boşluk ekleriz. */
+  display: flex;
+  gap: 5px; /* Düğmeler arasına boşluk ekleriz. */
 }
 
 .baslik {
-    font-family:'Times New Roman', Times, serif;
-    background-color: rgb(139, 235, 203);
-    width: 200px;
-    border-radius: 1rem;
-    margin-left: 550px;
-    font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(139, 235, 203);
+  width: 200px;
+  border-radius: 1rem;
+  margin-left: 550px;
+  font-size: 40px;
 }
